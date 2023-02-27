@@ -1,0 +1,28 @@
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+changeFlag()
+}
+
+
+function changeFlag() {
+  if (mouseX < 500) {
+
+rect(0, 0, 200, 400) 
+  fill("white")
+rect(200, 0, 200, 400) 
+  fill("blue")
+rect(400, 0, 200, 400)
+ fill("red")   
+noStroke()
+}
+else
+{
+fill("red")
+rect(0, 0, 600, 200);
+fill("white")
+rect(0, 200, 600, 200);
+noStroke()
+}}
